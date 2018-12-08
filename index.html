@@ -1,0 +1,268 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BlebsedProductions">
+    <title>Blebsed Productions</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="css/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script src ="js/Joboscript.js"></scriptsrc>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <link href="https://necolas.github.io/normalize.css/4.1.1/normalize.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,500|Roboto:100,200,300" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <![endif]-->
+
+    <style>
+        /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+                .topnav.responsive a.icon {
+                    position: absolute;
+                    right: 20;
+                    top: 0;
+                }
+
+                .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+        }
+        body {
+            color: #FFFFFF;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            background: #462b4e;
+            display: table;
+            font-weight: 300 !important;
+            font-family: 'Poiret One', cursive;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+
+
+
+        .projects {
+            display: block;
+            vertical-align: middle;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            display: block;
+            vertical-align: middle;
+            width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .content {
+            margin-top: 60px;
+            padding: 0px;
+        }
+
+        .quote {
+            font-size: 24px;
+            margin-bottom: 65px;
+        }
+
+        header {
+            width: 100%;
+            display: block;
+            z-index: 2000;
+            height: 130px;
+            padding-top: 40px;
+        }
+
+            header a,
+            .quote a {
+                color: #FFFFFF;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+                -o-transition: all 0.2s ease;
+                transition: all 0.2s ease;
+            }
+
+            header nav {
+                float: right;
+                margin-top: 26px;
+                display: block;
+                margin-left: 40px;
+            }
+
+        ul {
+            list-style: none;
+            list-style-image: none;
+        }
+
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            float: left;
+            margin-right: 32px;
+            padding: 0px;
+        }
+
+            li a {
+                color: #ffffff;
+                text-transform:;
+                font-size: 24px;
+                font-weight: 600;
+                text-decoration: none;
+                letter-spacing: 1px;
+            }
+
+        .topnav {
+            background-color: #462b4e;
+            overflow: hidden;
+        }
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                font-weight: 300 !important;
+                font-family: 'Poiret One', cursive;
+                -webkit-font-smoothing: antialiased;
+                text-rendering: optimizeLegibility;
+                text-decoration: none;
+                font-size: 15px;
+            }
+        .active {
+            background-color: #462b4e;
+            color: white;
+        }
+        .topnav .icon {
+            display: none;
+        }
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+        @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+            }
+        }
+        /*img src="http://i.imgur.com/4peUfn9.png" style=" position: absolute;left: -60px;top: -20px;" class="img-rounded"*/
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <h1 style="position:absolute;" class="animated bounce">
+                    <a href="index.html" class="logo">Blebsed Productions</a>
+                  
+                    <br>
+                    <small></small>
+                </h1>
+             </div>
+                <nav class="animated bounce">
+                    <div class="topnav" id="myTopnav">
+                        <ul>
+                            <a class="active" href="index.html"></a>
+                            <a class="" href="flim.html">Flims</a>
+                            <a class="" href="services.html">Our Services</a>
+                            <a class="" href="about.html">About</a>
+                            <a class="" href="contact.html">Contact</a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="quote">
+                <div class="animated bounce">
+
+                    
+                   <center><h1>The People Of Blebsed Productions</h1></center>  
+         
+                        <section class="grid-wrap" class="animated bounce">
+                            <ul class="grid swipe-right" id="grid">
+
+                                <li><a href="#"><img src="img/dummy.png" alt="dummy" class="animated bounce"><h3 class="animated bounce">Patrick Cobos</h3></a></li>
+                                <li><a href="#"><img src="img/dummy.png" alt="dummy" class="animated bounce"><h3 class="animated bounce">Joseph Cruz</h3></a></li>
+                                <li><a href="#"><img src="img/dummy.png" alt="dummy" class="animated bounce"><h3 class="animated bounce">Lazarus Almeida</h3></a></li>
+
+                            </ul>
+                        </section>
+                   
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+               
+                 
+                    <br><br><i ></i>
+                    <center>
+
+                        <a href="https://twitter.com/blebsedfilms"><i class="fab fa-twitter-square" class="animated bounce"></i> Twitter</a>
+                        <a href="https://www.instagram.com/blebsedproductions/"><i class="fab fa-instagram" class="animated bounce"></i> Instagram</a>
+                        <a href="https://www.facebook.com/blebsedproductions/"><i class="fab fa-facebook-square" 00`onkeyup="" onkeyup="" class="animated bounce"></i> Facebook</a>
+                    </center>
+                    <div class="projects">
+                        <br>
+
+                        <footer>
+                            <center>
+                                <h6>©BlebsedProductions</h6>
+                                <center </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
